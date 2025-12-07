@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <style>
+        body { font-family: 'Uncial Antiqua', serif; background: #f4e4bc; color: #111; padding: 32px; }
+        .seal { width: 100px; height: 100px; border: 5px solid #8B0000; display:inline-block }
+    </style>
+</head>
+<body>
+    <h1>Контракт Гильдии Приключенцев #{{ quest.id }}</h1>
+    <p><strong>Название:</strong> {{ quest.title }}</p>
+    <p><strong>Сложность:</strong> {{ quest.difficulty }}</p>
+    <p><strong>Вознаграждение:</strong> {{ quest.reward }} золотых</p>
+    <p><strong>Описание:</strong> {{ quest.description }}</p>
+    <p><em>Дата генерации: {{ date }}</em></p>
+    <div class="seal">Печать гильдии</div>
+</body>
+</html>

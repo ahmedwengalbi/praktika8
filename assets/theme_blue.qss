@@ -1,0 +1,63 @@
+/* Light blue theme for Quest Master */
+QWidget {
+  background-color: #f0f8ff;
+  color: #1f2933;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+QTabWidget::pane { border: none; }
+QTabBar::tab {
+  background: #e6f7ff;
+  padding: 8px 16px;
+  border: 1px solid #bfe8ff;
+  border-bottom: 2px solid #7fcffb;
+  border-radius: 6px 6px 0 0;
+}
+QTabBar::tab:selected {
+  background: #7fcffb;
+  color: #05202a;
+  font-weight: 600;
+}
+
+QLineEdit, QComboBox, QSpinBox, QDateTimeEdit {
+  background: #ffffff;
+  border: 2px solid #cfeefc;
+  border-radius: 6px;
+  padding: 6px;
+}
+QLineEdit:focus, QComboBox:focus, QSpinBox:focus, QDateTimeEdit:focus {
+  border: 2px solid #4fb3e6;
+}
+
+QTextEdit {
+  background: #fffafc;
+  border: 2px solid #cfeefc;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+QPushButton {
+  background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #7fcffb, stop:1 #59b0df);
+  color: #04202a;
+  border: 1px solid #4da9d6;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+QPushButton:hover {
+  background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #8edcff, stop:1 #6ec1ea);
+}
+QPushButton:pressed { background: #4fb3e6; }
+
+QProgressBar {
+  border: 1px solid #bcdff0;
+  border-radius: 6px;
+  background: #eaf8ff;
+}
+QProgressBar::chunk {
+  background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #4fb3e6, stop:1 #2b93c2);
+}
+
+QLabel { color: #12323a; }
+
+/* error highlight override used by code (red border stays) */
+

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <style>
+        body { font-family: 'Uncial Antiqua', serif; background: #f4e4bc; color: #301a00; padding: 40px; }
+        .orn { font-size: 18px; color: #6b3a11 }
+    </style>
+</head>
+<body>
+    <h1 class="orn">Древний свиток — Печать #{{ quest.id }}</h1>
+    <p><strong>Название:</strong> {{ quest.title }}</p>
+    <p><strong>Сложность:</strong> {{ quest.difficulty }}</p>
+    <p><strong>Награда:</strong> {{ quest.reward }} золотых</p>
+    <hr/>
+    <div><strong>Описание:</strong></div>
+    <div>{{ quest.description }}</div>
+    <p><em>Дата генерации: {{ date }}</em></p>
+</body>
+</html>

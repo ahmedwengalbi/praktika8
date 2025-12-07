@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <style>
+        body { font-family: 'Uncial Antiqua', serif; background: #fffaf0; color: #111; padding: 32px; }
+        h1 { text-align: center; }
+    </style>
+</head>
+<body>
+    <h1>Королевский указ №{{ quest.id }}</h1>
+    <p>Во имя короля: назначается задание</p>
+    <p><strong>Название:</strong> {{ quest.title }}</p>
+    <p><strong>Сложность:</strong> {{ quest.difficulty }}</p>
+    <p><strong>Вознаграждение:</strong> {{ quest.reward }} золотых</p>
+    <p><strong>Описание:</strong> {{ quest.description }}</p>
+    <p><em>Дата: {{ date }}</em></p>
+</body>
+</html>

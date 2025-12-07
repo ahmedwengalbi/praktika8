@@ -1,0 +1,6 @@
+Jinja2
+python-docx
+qrcode
+Pillow
+pytest
+weasyprint
